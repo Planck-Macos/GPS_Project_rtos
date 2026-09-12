@@ -1,0 +1,45 @@
+# ===== Keil MDK-ARM 编译产物 =====
+Objects/
+Listings/
+*.o
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.crf
+*.d
+*.dep
+*.lnp
+*.sct
+*.htm
+*.build_log.htm
+*.iex
+
+# ===== Keil 工程用户文件（个人配置，不共享）=====
+*.uvoptx
+*.uvguix.*
+*.uvguix
+*.dbgconf
+DebugConfig/
+
+# ===== J-Link / ST-Link 调试文件 =====
+JLinkLog.txt
+JLinkSettings.ini
+*.jlink
+ST-Link/
+
+# ===== VS Code / IDE =====
+.vscode/
+.vs/
+*.swp
+*~
+
+# ===== 操作系统 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== CubeMX 生成临时文件 =====
+RTE/
+*.mxproject.bak
